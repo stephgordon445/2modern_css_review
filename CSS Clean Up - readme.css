@@ -1,0 +1,72 @@
+/* CSS Clean Up 
+
+Scenario: A landing page mock up has been approved. The mock up requires review and clean up before being pushed to production. Below is a section of the mock up's CSS code. Please demonstrate how you would clean up this code to improve it's efficiency and readability.
+
+*/
+
+/* Begin Code Clean Up Below */
+
+.infomenu h1 {
+margin: 0;
+padding: 0;
+font-size: 30px;
+}
+.infomenu, .infomenu p {
+font-family: 'Open Sans';
+}
+.infomenu {
+font-size: 14px;line-height: 1.45em;
+}
+.infomenu p {
+font-family: 'Open Sans';
+font-size: 14px;
+line-height: 1.45em;
+}
+.infomenu h2 {
+font-size: 18px;
+font-weight: 400;
+margin: 20px 0 10px 0;
+}
+.infomenu.four.columns {
+background: #F1F5F8;
+}
+.infomenu.twelve.columns a {
+color: #2CA5C7;
+}
+.infomenu.four.columns ul li a:hover { color: #F56017;}
+.infomenu.four.columns ul {
+margin: 0;
+list-style: disc inside;
+line-height: 1.35em;
+font-size: 14px;
+}
+.infomenu-list {
+padding: 0 20px 30px 20px;
+}
+.infomenu.four.columns ul li {
+margin: 0 0 5px 20px;
+padding: 0;
+list-style: disc;
+color: #7D93A1;
+font-size: 12px;
+}
+.infomenu-title {
+font-size: 13px;
+font-weight: 400;
+color: #7D93A1;
+margin: 30px 0 5px 0;
+}
+.infomenu.four.columns ul li a {
+color: #333333;
+padding: 0;
+display: block;
+font-size: 14px;
+}
+.infomenu.twelve.columns ul {
+list-style: outside disc;
+margin: 0 0 0 25px;
+padding: 0;
+}
+.infomenu.twelve.columns a:hover {
+color: #F56017;
+}
